@@ -2,12 +2,9 @@
 // 转化为原数组的值要么不变，要么+2k, 这样不影响最终的输出
 // 排序后，从中间找一点，将一段递增的数组，变成两段递增的数组
 // 最大值，最小值只会出现在端点处
-#include <algorithm>
-#include <vector>
 #include "ds_utils.h"
 
 namespace LC910 {
-using namespace std;
 class Solution {
 public:
     int smallestRangeII(vector<int> &nums, int k) {

@@ -1,3 +1,5 @@
+#include <algorithm>
+#include <iomanip>
 #include <iostream>
 #include <map>
 #include <vector>
@@ -14,9 +16,25 @@ void print(vector<int> &nums) {
     cout << "]" << endl;
 }
 
+void print(vector<vector<int>> &matrix) {
+    int m = matrix.size();
+    int n = matrix[0].size();
+    for (size_t i = 0; i < m; i++) {
+        for (size_t j = 0; j < n; j++) {
+            cout << setw(2) << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
 void print(int num)
 {
     cout << num << endl;
+}
+
+void print(bool ret)
+{
+    cout << (ret ? "true" : "false") << endl;
 }
 
 template<typename K, typename V>

@@ -1,12 +1,8 @@
 // count-pairs-that-form-a-complete-day-i
 // 一次遍历，两数求和
-#include <map>
-#include <vector>
 #include "ds_utils.h"
-#include <unordered_map>
 
 namespace LC3184 {
-using namespace std;
 class Solution {
 public:
     int countCompleteDayPairs(vector<int>& hours) {
