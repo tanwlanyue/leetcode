@@ -27,7 +27,8 @@ void print(vector<vector<int>> &matrix) {
     }
 }
 
-void print(int num)
+template<typename T>
+void print(T num)
 {
     cout << num << endl;
 }
