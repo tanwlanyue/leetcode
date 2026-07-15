@@ -1,8 +1,4 @@
-#include <vector>
-#include <unordered_map>
-#include <iostream>
-
-using namespace std;
+#include "common.h"
 
 class Solution {
 public:
