@@ -70,3 +70,6 @@ Testing/
 
 # vscode
 .vscode/
+
+# idea
+.idea/
